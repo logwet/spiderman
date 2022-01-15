@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "spiderman",
+  "version": "${version}",
+  "accessWidener": "spiderman.accesswidener",
+  "name": "Spiderman",
+  "description": "Mod that turns you into the spiderman lul.",
+  "authors": [
+    "logwet"
+  ],
+  "contact": {
+    "homepage": "https://github.com/logwet",
+    "sources": "https://github.com/logwet/spiderman"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/spiderman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.logwet.spiderman.Spiderman"
+    ],
+    "client": [
+    ],
+    "server": [
+    ]
+  },
+  "mixins": [
+    "spiderman.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.16"
+  }
+}
