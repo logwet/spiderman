@@ -6,11 +6,11 @@
   "mixins": [
     "common.climbing.LivingEntityAccessor",
     "common.climbing.PlayerMixin",
-    "common.jumping.KeyboardInputMixin",
-    "common.jumping.LocalPlayerMixin"
+    "common.jumping.ServerPlayerMixin"
   ],
   "client": [
-    "client.DebugScreenOverlayMixin"
+    "client.DebugScreenOverlayMixin",
+    "client.jumping.LocalPlayerMixin"
   ],
   "server": [
   ],
