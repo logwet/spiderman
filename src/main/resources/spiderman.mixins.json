@@ -4,6 +4,8 @@
   "package": "me.logwet.spiderman.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "common.LivingEntityAccessor",
+    "common.PlayerMixin"
   ],
   "client": [
     "client.DebugScreenOverlayMixin"
