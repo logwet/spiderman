@@ -1,4 +1,4 @@
-package me.logwet.spiderman.mixin.common;
+package me.logwet.spiderman.mixin.common.climbing;
 
 import java.util.Optional;
 import net.minecraft.world.entity.EntityType;
